@@ -74,22 +74,19 @@ body{
 //    
 //    background-color: #E54A43;
 //}
+.photos{
+    position: relative;
+    z-index: 100;
+    top: -60px;
+}
 .card-photos{
-    position: fixed;
-    top: 40vw;
-    margin-top: -50px;
-    right: 1.2vw;
     width: 5vw;
-    height: 2vw;
+    height: 1.7vw;
     background-color: #E74C3C;
-    
     color: white;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
 }
-
-
-
 h2{
     margin: 0;
 }
